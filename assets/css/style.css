@@ -5,5 +5,123 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-size: 1.6rem;  /* khôi phục lại cỡ chữ mặc định tính theo rem */
+  font-size: 1.6rem; /* khôi phục lại cỡ chữ mặc định tính theo rem */
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary-color: #1ebfc1;
+}
+/* ==============================================common=========================================== */
+a {
+  text-decoration: none;
+}
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ==============================================header=========================================== */
+.header {
+  padding-top: 52px;
+  padding-bottom: 8px;
+  background-color: #fff;
+}
+.header.fixed {
+  position: sticky;
+  top: -44px;
+}
+.header .body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .body ul {
+  display: flex;
+  gap: 39px;
+}
+.header .body a {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+}
+.header li.active a,
+.header .body a:hover {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  text-shadow: 1px 0 1px #2f3a3b;
+}
+.header .user {
+  display: flex;
+  align-items: center;
+}
+.header .body .desc {
+  color: #494949;
+  font-size: 1.6rem;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.header .btn-sign-up {
+  border: none;
+  width: 108px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+}
+.header button {
+  color: #1ebfc1;
+  font-size: 16px;
+  font-weight: 600;
+}
+/* ==============================================hero=========================================== */
+.hero {
+  margin-top: 42px;
+}
+.hero .hero-left {
+  width: 458px;
+  height: 445px;
+  padding-top: 93px;
+}
+.hero .hero-left strong {
+  color: #767e7e;
+  font-size: 1.4rem;
+}
+.hero .hero-left .title {
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.16;
+  margin-top: 18px;
+}
+.hero .hero-left .desc {
+  margin-top: 47px;
+  color: #9da6a5;
+  font-size: 1.8rem;
+  line-height: 1.77;
+}
+.hero .hero-left .get-started {
+  margin-top: 52px;
+  display: flex;
+  gap: 50px;
+}
+.hero .hero-left .get-started button {
+  width: 186px;
+  height: 68px;
+  border: none;
+  border-radius: 14px;
+  background: #1ebfc1;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.hero .hero-left img {
+  width: 62px;
+  height: 62px;
+  padding: 22px;
+  border-radius: 62px;
+  background: #fff;
+  box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
 }
