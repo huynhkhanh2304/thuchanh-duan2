@@ -14,12 +14,14 @@ body {
 /* ==============================================common=========================================== */
 a {
   text-decoration: none;
+  color: currentColor;
 }
 .main-content {
   width: 1170px;
   max-width: calc(100% - 48px);
   margin-left: auto;
   margin-right: auto;
+  /* background-color: red; */
 }
 
 /* ==============================================header=========================================== */
@@ -77,7 +79,10 @@ a {
 }
 /* ==============================================hero=========================================== */
 .hero {
-  margin-top: 42px;
+  padding-bottom: 79px;
+  margin-top: 12px;
+
+  padding-top: 30px;
 }
 .hero .body {
   display: flex;
@@ -251,4 +256,69 @@ a {
   font-size: 1rem;
   font-weight: 500;
   line-height: normal;
+}
+/* ==============================================features=========================================== */
+.features .body-top {
+  /* width: 50.4%; */
+  margin-top: 130px;
+}
+.features .body {
+  max-width: 1024px;
+}
+.features .body-top span {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.features .body-top .title {
+  margin: 18px 0 18px;
+  max-width: 577px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33;
+}
+
+.features .body-top .desc {
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+  max-width: 590px;
+}
+.features .body-bottom {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+.features img {
+  width: 102px;
+  height: 106px;
+}
+.features span {
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 26px;
+  cursor: pointer;
+
+}
+.features .features-icon {
+  display: flex;
+  flex-direction: column;
+}
+.features .body-bottom .desc {
+  margin-top: 16px;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  line-height: 1.68;
+}
+
+.features .live-class {
+  width: 168px;
+}
+.features .discuss {
+  width: 223px;
+}
+.features .task {
+  width: 224px;
 }
