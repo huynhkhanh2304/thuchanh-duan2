@@ -258,6 +258,9 @@ a {
   line-height: normal;
 }
 /* ==============================================features=========================================== */
+.features {
+  padding-bottom: 65px;
+}
 .features .body-top {
   /* width: 50.4%; */
   margin-top: 130px;
@@ -300,7 +303,6 @@ a {
   font-weight: 600;
   margin-top: 26px;
   cursor: pointer;
-
 }
 .features .features-icon {
   display: flex;
@@ -322,3 +324,68 @@ a {
 .features .task {
   width: 224px;
 }
+/* ==============================================courses01=========================================== */
+.courses01 {
+  padding: 65px 0 65px;
+}
+.courses01 .web-list {
+  display: flex;
+  margin-top: 79px;
+  justify-content: space-between;
+}
+.courses01 .web-list .thumb {
+  width: 100%;
+  border-radius: 8px;
+  opacity: 0.35;
+  background: #d0efed;
+  object-fit: cover;
+  height: 393px;
+}
+.courses01 .lable {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.courses01 .title {
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 18px;
+}
+.courses01 .desc-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.courses01 .desc-block .desc {
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.77;
+  max-width: 525px;
+}
+.courses01 .desc-block .view-all {
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.courses01 .web-list01 {
+  width: 359px;
+  position: relative;
+}
+.courses01 .web-list02 {
+  width: 359px;
+  position: relative;
+}
+.courses01 .web-list03 {
+  position: relative;
+  width: 359px;
+}
+.courses01 .info {
+  position: absolute;
+  top: 0;
+}
+/* code tiếp phần info */
