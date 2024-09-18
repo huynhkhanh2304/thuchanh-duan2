@@ -73,7 +73,7 @@ a {
   background-color: transparent;
 }
 .header button {
-  color: #1ebfc1;
+  color: var(--primary-color);
   font-size: 16px;
   font-weight: 600;
 }
@@ -119,7 +119,7 @@ a {
   height: 68px;
   border: none;
   border-radius: 14px;
-  background: #1ebfc1;
+  background: var(--primary-color);
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
   color: #fff;
   font-size: 1.8rem;
@@ -245,7 +245,7 @@ a {
 .hero-right .quantity-10k {
   width: 33px;
   height: 33px;
-  background-color: #1ebfc1;
+  background-color: var(--primary-color);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -366,7 +366,7 @@ a {
   max-width: 525px;
 }
 .courses01 .desc-block .view-all {
-  color: #1ebfc1;
+  color: var(--primary-color);
   font-size: 1.4rem;
   font-weight: 700;
   line-height: normal;
@@ -445,7 +445,7 @@ a {
   content: "";
   width: 6px;
   height: 6px;
-  background-color: #1ebfc1;
+  background-color: var(--primary-color);
   position: absolute;
   border-radius: 50%;
   left: -14px;
@@ -454,7 +454,6 @@ a {
 /* ==============================================stats=========================================== */
 .stats {
   padding: 65px 0 65px;
-  background:yellow;
   margin-top: 135px;
 }
 .stats .body {
@@ -477,4 +476,154 @@ a {
   font-size: 1.8rem;
   line-height: normal;
   margin-top: 11px;
+}
+/* ==============================================feedback=========================================== */
+.feedback {
+  padding: 65px 0 65px;
+  margin-top: 200px;
+}
+.feedback .body {
+  display: flex;
+}
+.feedback-left {
+}
+.feedback-left .quote {
+  margin-top: 37px;
+  width: 36px;
+  height: 29px;
+}
+.feedback-left .they-are {
+  max-width: 419px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  margin-top: 27px;
+}
+.feedback-left .ben-foakes {
+  margin-top: 33px;
+  display: flex;
+  align-items: center;
+}
+.feedback-left .ben-foakes::before {
+  content: "";
+  left: 0;
+  display: block;
+  width: 8px;
+  height: 2px;
+  background: #070707;
+}
+.feedback-left .ben-foakes span {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5px;
+}
+.feedback-left .ben-foakes p {
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+}
+.feedback-left .button {
+  display: flex;
+  margin-top: 52px;
+}
+.feedback-left .button .btn {
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.feedback-left .button .btn-next {
+  margin-left: 30px;
+}
+.feedback-right {
+  width: 64.1%;
+  position: relative;
+}
+.feedback-right .fb-ava {
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+}
+.feedback-right .avatar01 {
+  width: 92px;
+  height: 92px;
+  top: 0;
+  left: 216px;
+}
+.feedback-right .avatar02 {
+  width: 110px;
+  height: 110px;
+  top: 19px;
+  left: 641px;
+}
+.feedback-right .avatar03 {
+  width: 78px;
+  height: 78px;
+  bottom: 29px;
+  left: 641px;
+}
+.feedback-right .avatar04 {
+  width: 78px;
+  height: 78px;
+  bottom: 0;
+  left: 284px;
+}
+.feedback-right .avatar05 {
+  width: 78px;
+  height: 78px;
+  left: 72px;
+  top: 258px;
+}
+.feedback-right .avatar06 {
+  width: 235px;
+  height: 235px;
+  top: 107px;
+  left: 345px;
+}
+/* ==============================================CTA=========================================== */
+.cta {
+  padding: 65px 0 65px;
+  background: #def6f5;
+  margin-top: 130px;
+}
+.cta .body {
+  display: flex;
+  max-width: 1016px;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta-left .ready {
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 11px;
+}
+.cta-left .desc {
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+.cta-right .cta-btn {
+  border: none;
+  width: 186px;
+  height: 68px;
+  border-radius: 14px;
+  background: var(--primary-color);
+  cursor: pointer;
+}
+.cta-right p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: normal;
 }
