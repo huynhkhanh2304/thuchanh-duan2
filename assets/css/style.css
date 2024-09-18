@@ -334,7 +334,7 @@ a {
   justify-content: space-between;
 }
 .courses01 .web-list .thumb {
-  width: 100%;
+  width: 359px;
   border-radius: 8px;
   opacity: 0.35;
   background: #d0efed;
@@ -386,6 +386,69 @@ a {
 }
 .courses01 .info {
   position: absolute;
-  top: 0;
+  top: 322px;
+  left: 17px;
+  width: 325px;
+  height: 195px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
 }
-/* code tiếp phần info */
+.courses01 .title-h2 {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 25px;
+  margin-top: 18px;
+}
+.courses01 .fee {
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 25px;
+  margin-top: 16px;
+}
+.courses01 .info span {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.courses01 .info .desc {
+  color: #9da6a5;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 25px;
+  margin-top: 6px;
+}
+.courses01 .info .number {
+  display: flex;
+  position: relative;
+}
+.courses01 .info .number .desc {
+  color: #9da6a5;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 18px;
+  margin-left: 41px;
+  position: relative;
+}
+.courses01 .info .number01 {
+  position: relative;
+}
+.courses01 .info .number02 .desc::before,
+.courses01 .info .number01 .desc::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #1ebfc1;
+  position: absolute;
+  border-radius: 50%;
+  left: -14px;
+  top: 6px;
+}
+/* ==============================================stats=========================================== */
