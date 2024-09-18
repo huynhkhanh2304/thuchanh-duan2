@@ -590,7 +590,7 @@ a {
 }
 /* ==============================================CTA=========================================== */
 .cta {
-  padding: 65px 0 65px;
+  padding: 65px 0 88px;
   background: #def6f5;
   margin-top: 130px;
 }
@@ -626,4 +626,49 @@ a {
   font-size: 1.8rem;
   font-weight: 600;
   line-height: normal;
+}
+/* ==============================================footer=========================================== */
+footer .body {
+  margin-top: 136px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .logo-besnik {
+  width: 127px;
+  height: 37px;
+}
+footer h2 {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+
+footer p {
+  color: #535353;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer05 .ft {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.footer03 .test,
+.footer04 .test,
+.footer05 .test,
+.footer02 .test {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+footer .copyright {
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  line-height: normal;
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 50px;
 }
