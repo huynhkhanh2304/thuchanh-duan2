@@ -326,7 +326,7 @@ a {
 }
 /* ==============================================courses01=========================================== */
 .courses01 {
-  padding: 65px 0 65px;
+  padding: 65px 0 190px;
 }
 .courses01 .web-list {
   display: flex;
@@ -452,3 +452,29 @@ a {
   top: 6px;
 }
 /* ==============================================stats=========================================== */
+.stats {
+  padding: 65px 0 65px;
+  background:yellow;
+  margin-top: 135px;
+}
+.stats .body {
+  display: flex;
+  justify-content: space-between;
+  width: 73.6%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.stats span {
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.stats p {
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: normal;
+  margin-top: 11px;
+}
