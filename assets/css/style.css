@@ -71,6 +71,7 @@ a {
   border-radius: 6px;
   border: 1px solid var(--primary-color);
   background-color: transparent;
+  cursor: pointer;
 }
 .header button {
   color: var(--primary-color);
@@ -124,6 +125,7 @@ a {
   color: #fff;
   font-size: 1.8rem;
   font-weight: 600;
+  cursor: pointer;
 }
 .hero .hero-left img {
   width: 62px;
